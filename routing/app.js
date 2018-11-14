@@ -1,3 +1,4 @@
+module.exports = function(app){
 function facebookAJAX() {
     var json = {individual_placement_performances:[{"placement_id":"47a8-ba48-c836-2c8b","placement_description":"Facebook Image Ad - 25% Off One Item","placement_type_name":"Facebook Image","cost":"$21.42","impressions":418,"clicks":3,"click_through_rate_as_percentage":"0.72%","cost_per_click":"$7.14","post_engagements":93,"cost_per_post_engagements":"$0.23","reach":365}]};
 
@@ -76,3 +77,4 @@ function businessInfoAJAX() {
 businessInfoAJAX();
 googleAJAX();
 facebookAJAX();
+};
