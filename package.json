@@ -1,0 +1,27 @@
+{
+  "name": "rws_full",
+  "version": "1.0.0",
+  "description": "RWS Project Server",
+  "main": "get.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kthomas852/RWS_Full.git"
+  },
+  "author": "Kyle Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kthomas852/RWS_Full/issues"
+  },
+  "homepage": "https://github.com/kthomas852/RWS_Full#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
+  }
+}
